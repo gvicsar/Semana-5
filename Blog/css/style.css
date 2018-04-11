@@ -1,0 +1,58 @@
+		html {
+			font-family: arial;
+		}
+		body {
+			background-color: pink;
+		}
+		h1 {
+			color: white;
+			font-family: times;
+			font-style:italic;
+			font-size: 50px;
+		}
+		footer {
+			color:white;
+		}
+		.heading1 {
+			float: left;
+		}
+		.listspacing {
+			line-height: 200%;
+		}
+		.bullet {
+			list-style-type: none;
+			margin: 10px;
+			padding: 0;
+		}
+		.listbackground {
+			padding-top: 20px;
+			padding-bottom: 50px;
+			color: white;
+			margin:5px;
+		}
+		.hr1 {
+			float: center;
+			top: 90px;
+			width:100%;
+		}
+		#hr2 {
+			float: center;
+		}
+		.nav {
+			float: right;
+		}
+		.column {
+			float: left;
+			padding: 10px;
+		}
+		.column.side {
+			width:15%;
+		}
+		.column.middle {
+			width:80%;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
